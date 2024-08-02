@@ -16,5 +16,6 @@ contract Example {
             x := sload(0x2)
         }
         console.log(x);
+        //console.logBytes32(x);
     }
 }

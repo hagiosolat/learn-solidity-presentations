@@ -10,6 +10,7 @@ Solidity stores these in contiguous storage slots
 
 ```js
 contract Example {
+  //These are storage variable
   uint256 a; // storage slot - 0x0
   uint256 b; // storage slot - 0x1
   bool public c; // storage slot - 0x2
@@ -21,7 +22,7 @@ contract Example {
 
     // read storage slot 0x1
     // store it in memory (not persistent!)
-    uint x = b;
+    uint x = b; // this is a memory variable
   }
 }
 ```

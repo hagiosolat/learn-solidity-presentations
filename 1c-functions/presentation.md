@@ -43,3 +43,13 @@ contract Example {
   }
 }
 ```
+### The following are the visibility keywords
+- private
+- internal
+- public
+- external
+
+### The following are state visibility keywords
+- pure: I cannot write/read to storage
+- view: I can read from storage, not write
+- payable: send me some ether!
